@@ -34,30 +34,21 @@ export default function SocialProof2() {
           sobre sus deseos que recordará en el tiempo.
         </p>
         <p className="font-bold">Innová regalando una charla de En Palabras</p>
-        <div className="w-full">
-          <dl
-            className="flex flex-row justify-between gap-8 
-            text-gray-900"
-          >
-            <div className="flex flex-col items-center justify-center">
-              <dt className="mb-2 text-3xl md:text-4xl font-extrabold">+16</dt>
-              <dd className="font-light">países</dd>
-            </div>
-            <div className="flex flex-col  items-center justify-center">
-              <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
-                +100K
-              </dt>
-              <dd className="ml-2 font-light text-2xl md:text-3xl text-dark">
-                juegos vendidos
-              </dd>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <dt className="mb-2 text-3xl md:text-4xl font-extrabold">35</dt>
-              <dd className="font-light">
-                colaboraciones <br /> con empresas
-              </dd>
-            </div>
-          </dl>
+        <div className="w-full flex flex-row items-center justify-between text-left">
+          <div className="flex flex-col items-center justify-center">
+            <p className="mb-2 text-3xl md:text-4xl font-extrabold">+16</p>
+            <p className="font-light">países</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="mb-2 text-3xl md:text-4xl font-extrabold">+100K</p>
+            <p className="font-light text-2xl md:text-3xl">juegos vendidos</p>
+          </div>
+          <div className="flex flex-col items-center justify-center text-right">
+            <p className="mb-2 text-3xl md:text-4xl font-extrabold">35</p>
+            <p className="font-light">
+              colaboraciones <br /> con empresas
+            </p>
+          </div>
         </div>
       </div>
     </section>

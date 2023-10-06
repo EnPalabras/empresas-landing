@@ -26,9 +26,7 @@ export default function Testimonials() {
   return (
     <div className="w-full py-10 mx-auto bg-gray-900 text-white">
       <section className="text-center mx-auto ">
-        <h2 className="mb-12 text-3xl font-bold text-white">
-          Empresas que confiaron en En Palabras
-        </h2>
+        <h2 className="mb-12 text-3xl font-bold text-white">Empresas</h2>
 
         <div className="grid grid-cols-1 md:gap-x-6 md:grid-cols-3 lg:gap-x-10 px-10">
           {TESTIMONIALS.map((testimonial) => {
