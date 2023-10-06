@@ -10,7 +10,7 @@ import SocialProof2 from './components/SocialProof2'
 function App() {
   return (
     <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
-      <SocialProof />
+      {/* <SocialProof /> */}
       <SocialProof2 />
       <Testimonials />
       <LogoBrands />
