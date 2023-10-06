@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import FAQ from './components/FAQ'
 import SocialProof from './components/SocialProof'
@@ -9,8 +6,6 @@ import LogoBrands from './components/LogoBrands'
 import CTAFooter from './components/CTAFooter'
 import Footer from './components/Footer'
 import SocialProof2 from './components/SocialProof2'
-
-// const hola = import.meta.env.VITE_URL
 
 function App() {
   return (

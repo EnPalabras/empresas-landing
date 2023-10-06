@@ -1,25 +1,25 @@
-const LOGO_BRANDS = [
-  {
-    imageUrl:
-      'https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/1.png',
-    imageAlt: 'Nasa - logo',
-  },
-  {
-    imageUrl:
-      'https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/2.png',
-    imageAlt: 'Nasa - logo',
-  },
-  {
-    imageUrl:
-      'https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/3.png',
-    imageAlt: 'Nasa - logo',
-  },
-  {
-    imageUrl:
-      'https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/4.png',
-    imageAlt: 'Nasa - logo',
-  },
-]
+// const LOGO_BRANDS = [
+//   {
+//     imageUrl:
+//       'https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/1.png',
+//     imageAlt: 'Nasa - logo',
+//   },
+//   {
+//     imageUrl:
+//       'https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/2.png',
+//     imageAlt: 'Nasa - logo',
+//   },
+//   {
+//     imageUrl:
+//       'https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/3.png',
+//     imageAlt: 'Nasa - logo',
+//   },
+//   {
+//     imageUrl:
+//       'https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/4.png',
+//     imageAlt: 'Nasa - logo',
+//   },
+// ]
 
 export default function LogoBrands() {
   return (
