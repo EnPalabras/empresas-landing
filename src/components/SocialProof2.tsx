@@ -41,7 +41,9 @@ export default function SocialProof2() {
           </div>
           <div className="flex flex-col items-center justify-center">
             <p className="mb-2 text-3xl md:text-4xl font-extrabold">+100K</p>
-            <p className="font-light text-2xl md:text-3xl">juegos vendidos</p>
+            <p className="font-light text-center">
+              juegos <br /> vendidos
+            </p>
           </div>
           <div className="flex flex-col items-center justify-center text-right">
             <p className="mb-2 text-3xl md:text-4xl font-extrabold">35</p>
