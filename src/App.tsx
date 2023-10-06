@@ -1,6 +1,6 @@
 import './App.css'
 import FAQ from './components/FAQ'
-import SocialProof from './components/SocialProof'
+// import SocialProof from './components/SocialProof'
 import Testimonials from './components/Testimonials'
 import LogoBrands from './components/LogoBrands'
 import CTAFooter from './components/CTAFooter'
