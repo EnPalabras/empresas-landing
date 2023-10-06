@@ -34,22 +34,22 @@ export default function SocialProof2() {
           sobre sus deseos que recordará en el tiempo.
         </p>
         <p className="font-bold">Innová regalando una charla de En Palabras</p>
-        <div className="w-full flex flex-row items-center justify-between text-left">
-          <div className="flex flex-col items-center justify-center">
+        <div className="w-full flex  items-center justify-around">
+          <div className="flex w-full flex-col items-center justify-center">
             <p className="mb-2 text-3xl md:text-4xl font-extrabold">+16</p>
             <p className="font-light">países</p>
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <p className="mb-2 text-3xl md:text-4xl font-extrabold">+100K</p>
-            <p className="font-light text-center">
-              juegos <br /> vendidos
-            </p>
-          </div>
-          <div className="flex flex-col items-center justify-center text-right">
+          <div className="flex w-full flex-col items-center justify-center">
             <p className="mb-2 text-3xl md:text-4xl font-extrabold">35</p>
             <p className="font-light">
               colaboraciones <br /> con empresas
             </p>
+          </div>
+        </div>
+        <div className="w-full flex  items-center justify-around">
+          <div className="flex w-full flex-col items-center justify-center">
+            <p className="mb-2 text-3xl md:text-4xl font-extrabold">+100K</p>
+            <p className="font-light text-2xl md:text-3xl">juegos vendidos</p>
           </div>
         </div>
       </div>
