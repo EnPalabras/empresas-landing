@@ -1,7 +1,7 @@
 export default function FAQ() {
   return (
     <div
-      id="accordion-flush"
+      id="preguntas"
       data-accordion="collapse"
       data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
       data-inactive-classes="text-gray-500 dark:text-gray-400"
@@ -36,9 +36,9 @@ export default function FAQ() {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M9 5 5 1 1 5"
             />
           </svg>
@@ -91,9 +91,9 @@ export default function FAQ() {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M9 5 5 1 1 5"
             />
           </svg>
@@ -141,9 +141,9 @@ export default function FAQ() {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M9 5 5 1 1 5"
             />
           </svg>
@@ -216,9 +216,9 @@ export default function FAQ() {
 //           >
 //             <path
 //               stroke="currentColor"
-//               stroke-linecap="round"
-//               stroke-linejoin="round"
-//               stroke-width="2"
+//               strokeLinecap="round"
+//               strokeLinejoin="round"
+//               strokeWidth="2"
 //               d="M9 5 5 1 1 5"
 //             />
 //           </svg>
@@ -267,9 +267,9 @@ export default function FAQ() {
 //           >
 //             <path
 //               stroke="currentColor"
-//               stroke-linecap="round"
-//               stroke-linejoin="round"
-//               stroke-width="2"
+//               strokeLinecap="round"
+//               strokeLinejoin="round"
+//               strokeWidth="2"
 //               d="M9 5 5 1 1 5"
 //             />
 //           </svg>
@@ -320,9 +320,9 @@ export default function FAQ() {
 //           >
 //             <path
 //               stroke="currentColor"
-//               stroke-linecap="round"
-//               stroke-linejoin="round"
-//               stroke-width="2"
+//               strokeLinecap="round"
+//               strokeLinejoin="round"
+//               strokeWidth="2"
 //               d="M9 5 5 1 1 5"
 //             />
 //           </svg>

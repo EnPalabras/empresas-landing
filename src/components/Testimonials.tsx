@@ -24,7 +24,10 @@ const TESTIMONIALS = [
 
 export default function Testimonials() {
   return (
-    <div className="w-full py-10 mx-auto bg-gray-900 text-white">
+    <div
+      className="w-full py-10 mx-auto bg-gray-900 text-white"
+      id="testimonios"
+    >
       <section className="text-center mx-auto ">
         <h2 className="mb-12 text-3xl font-bold text-white">Empresas</h2>
 

@@ -10,7 +10,7 @@ export default function CTAFooter() {
         >
           ¿Necesitás mas <br className="hidden md:block" /> ayuda?
         </h3>
-        <a href="#contact">
+        <a href="#formulario">
           <button
             className="
         uppercase border-2 border-primary px-8 py-3 border-gray-900
