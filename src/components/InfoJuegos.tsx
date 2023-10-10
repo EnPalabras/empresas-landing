@@ -1,4 +1,3 @@
-import { useState } from 'react'
 const PlusIcon = () => {
   return (
     <svg
@@ -14,8 +13,6 @@ const PlusIcon = () => {
 }
 
 export default function InfoJuegos() {
-  const [open, setOpen] = useState(true)
-
   return (
     <div className="bg-red-100 w-full flex flex-col p-4">
       <h2 className="text-3xl font-bold text-center mb-4">
