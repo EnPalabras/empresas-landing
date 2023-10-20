@@ -29,7 +29,6 @@ function App() {
       <FAQ />
       <CTAFooter />
       <Footer /> */}
-
       <Header />
       <HeroSection />
       <JuegosInfo />
