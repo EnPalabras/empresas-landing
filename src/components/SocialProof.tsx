@@ -166,7 +166,7 @@ export default function SocialProof() {
         justify-center items-center bg-[#c2bad8] bg-opacity-90"
         >
           <h4
-            className="text-2xl text-gray-800 mb-8"
+            className="text-2xl text-gray-800 mb-8 md:text-4xl"
             style={{
               fontFamily: 'PP Neue Montreal Medium',
               lineHeight: '1.2',
