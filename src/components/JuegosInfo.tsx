@@ -8,7 +8,7 @@ import desconectados from '../assets/images/juegos/desconectados.png'
 import destapados from '../assets/images/juegos/destapados.png'
 import personalizado from '../assets/images/juegos/personalizado.png'
 import anionuevo from '../assets/images/juegos/anionuevo.png'
-import { Drawer, Typography, IconButton } from '@material-tailwind/react'
+import { Drawer, IconButton } from '@material-tailwind/react'
 
 export default function JuegosInfo() {
   const [flippedCard, setFlippedCard] = useState<any>({
