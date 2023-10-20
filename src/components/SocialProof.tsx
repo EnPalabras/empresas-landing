@@ -207,7 +207,7 @@ export default function SocialProof() {
             Innová regalando una charla de En Palabras
           </p>
           <div
-            className="flex flex-row justify-between 
+            className="flex flex-row justify-center 
             w-full gap-2 text-center"
           >
             <div
