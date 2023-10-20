@@ -14,3 +14,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  width: 100%;
+  background-color: #c2bad8;
+}
+
+#proceso span {
+  font-family: 'PP Neue Montreal Bold';
+}
