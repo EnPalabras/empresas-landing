@@ -3,7 +3,7 @@ import socialMobile from '../assets/images/juegos/page/mobile/socialproof.jpg'
 
 export default function SocialProof() {
   return (
-    <section className="max-w-8xl  mx-auto lg:px-4">
+    <section className="max-w-8xl my-10 mx-auto lg:px-4">
       <div className="hidden my-10 lg:flex flex-col">
         <h4
           className="text-3xl text-gray-800 lg:text-7xl mb-8"
@@ -73,7 +73,7 @@ export default function SocialProof() {
             >
               <div
                 className="flex flex-col justify-between py-9 px-6 
-              bg-[#584776] bg-opacity-[10%] bg-gray-50 
+              bg-[#584776] bg-opacity-[30%] bg-gray-50 
               rounded-xl text-center"
               >
                 <p
@@ -98,7 +98,7 @@ export default function SocialProof() {
               </div>
               <div
                 className="flex flex-col justify-between py-9 px-6 
-              bg-[#584776] bg-opacity-[10%] bg-gray-50 
+              bg-[#584776] bg-opacity-[30%] bg-gray-50 
               rounded-xl text-center"
               >
                 <p
@@ -123,7 +123,7 @@ export default function SocialProof() {
               </div>
               <div
                 className="flex flex-col justify-between pt-9 pb-2 px-6 
-              bg-[#584776] bg-opacity-[10%] bg-gray-50 
+              bg-[#584776] bg-opacity-[30%] bg-gray-50 
               rounded-xl text-center"
               >
                 <p
@@ -211,7 +211,7 @@ export default function SocialProof() {
             w-full gap-2 text-center"
           >
             <div
-              className="flex flex-col py-2 px-2 
+              className="flex flex-col py-2 px-2 w-full
               bg-[#584776] bg-opacity-[10%] bg-gray-50 
               rounded-xl text-center"
             >
@@ -236,7 +236,7 @@ export default function SocialProof() {
               </p>{' '}
             </div>
             <div
-              className="flex flex-col justify-between py-2 px-2 
+              className="flex flex-col justify-between py-2 px-2 w-full
               bg-[#584776] bg-opacity-[10%] bg-gray-50 
               rounded-xl text-center"
             >
@@ -262,7 +262,7 @@ export default function SocialProof() {
               </p>{' '}
             </div>
             <div
-              className="flex flex-col justify-between py-2 px-2 
+              className="flex flex-col justify-between py-2 px-2 w-full
               bg-[#584776] bg-opacity-[10%] bg-gray-50 
               rounded-xl text-center"
             >

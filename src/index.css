@@ -39,3 +39,9 @@
   src: url('./assets/fonts/NeueMontreal/ppneuemontreal-semibolditalic.otf')
     format('opentype');
 }
+
+@font-face {
+  font-family: 'PP Neue Montreal Book';
+  src: url('./assets/fonts/NeueMontreal/ppneuemontreal-book.otf')
+    format('opentype');
+}

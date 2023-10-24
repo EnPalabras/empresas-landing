@@ -1,8 +1,8 @@
 export default function Proceso() {
   return (
-    <section className="max-w-8xl mx-auto lg:px-4" id="proceso">
+    <section className="max-w-6xl mx-auto my-10 px-2 md:px-4" id="proceso">
       <h4
-        className="text-3xl text-gray-800 lg:text-7xl mb-8"
+        className="text-3xl text-gray-800 lg:text-7xl mb-8 text-center"
         style={{
           fontFamily: 'PP Neue Montreal Medium',
           lineHeight: '1.2',
@@ -19,11 +19,11 @@ export default function Proceso() {
         </span>{' '}
         de cartas personalizadas
       </h4>
-      <div className="flex flex-col gap-4 justify-between items-center max-w-5xl mx-auto text-justify">
+      <div className="flex flex-col gap-4 justify-between items-center max-w-6xl mx-auto text-justify">
         <div
-          className="p-4
+          className="px-4 lg:px-8
         bg-gray-50  bg-opacity-30
-        rounded-lg
+        rounded-lg py-8 w-full
         "
         >
           <div className="flex flex-col gap-4 justify-between">
@@ -42,11 +42,11 @@ export default function Proceso() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row w-full justify-around gap-6">
+        <div className="flex flex-col lg:flex-row w-full justify-between gap-6 ">
           <div
-            className="p-4
+            className="px-4 lg:px-8
         bg-gray-50  bg-opacity-30
-        rounded-lg
+        rounded-lg w-full lg:w-3/5  py-8 w-full
         "
           >
             <div className="flex flex-col gap-4 justify-between ">
@@ -77,9 +77,9 @@ export default function Proceso() {
             </div>
           </div>
           <div
-            className="p-4
+            className="px-4 lg:px-8
         bg-gray-50  bg-opacity-30
-        rounded-lg
+        rounded-lg w-full lg:w-2/5 py-8 w-full
         "
           >
             <div className="flex flex-col gap-4 justify-between">

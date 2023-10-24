@@ -12,7 +12,8 @@ export default function Header() {
 
   return (
     <header
-      className="flex flex-row select-none max-w-4xl mx-auto"
+      className="flex flex-row select-none max-w-4xl mx-auto
+      "
       style={{
         fontFamily: 'PP Neue Montreal Thin',
         fontWeight: 700,
@@ -220,7 +221,7 @@ export default function Header() {
               <Instagram />
             </a>
             <a
-              href="https://tiktok.com/enpalabrass"
+              href="https://tiktok.com/@enpalabrass"
               target="_blank"
               className="h-14 w-14 hover:text-black transition duration-200"
               onClick={() => {

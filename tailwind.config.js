@@ -10,7 +10,17 @@ module.exports = withMT({
     'node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'infinite-scroll': 'infinite-scroll 10s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
+      },
+    },
   },
   plugins: [require('flowbite/plugin')],
 })
