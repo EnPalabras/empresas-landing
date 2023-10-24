@@ -158,7 +158,7 @@ export default function SocialProof() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          height: '80vh',
+          minHeight: '80vh',
         }}
       >
         <div
@@ -166,7 +166,7 @@ export default function SocialProof() {
         justify-center items-center bg-[#c2bad8] bg-opacity-90"
         >
           <h4
-            className="text-2xl text-gray-800 mb-8 md:text-4xl"
+            className="text-2xl text-gray-800 mb-8 md:text-4xl text-center"
             style={{
               fontFamily: 'PP Neue Montreal Medium',
               lineHeight: '1.2',
