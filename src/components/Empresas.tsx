@@ -29,7 +29,7 @@ export default function Empresas() {
         en <br className="lg:hidden" />
         En Palabras
       </h4>
-      <div
+      {/* <div
         className="w-full inline-flex flex-nowrap overflow-hidden 
         [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
         x-data="{}"
@@ -64,6 +64,23 @@ export default function Empresas() {
             <WarnerBros />
           </li>
         </ul>
+      </div> */}
+      <div className="flex flex-row justify-around items-center mt-10">
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-8">
+          <NespressoLogo />
+        </div>
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-8">
+          <MicrosoftLogo />
+        </div>
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-8">
+          <GoogleLogo />
+        </div>
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-8">
+          <AdidasLogo />
+        </div>
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-8">
+          <WarnerBros />
+        </div>
       </div>
     </section>
   )

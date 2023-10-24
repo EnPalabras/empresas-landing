@@ -44,7 +44,7 @@ export default function SocialProof() {
           >
             <div className="flex flex-col gap-8">
               <p>
-                Las exeriencias de nuestros usuarios dan cuenta de un cambio en
+                Las experiencias de nuestros usuarios dan cuenta de un cambio en
                 la dinámica laboral. Una necesidad de mejorar las relaciones en
                 el equipo y la posiblidad de conocer nuevas facetas y puntos en
                 común para conectar.
@@ -52,7 +52,7 @@ export default function SocialProof() {
               <p>
                 Por eso desde <b>En Palabras</b>, nos comprometemos y elegimos
                 crear dinámicas que faciliten conversaciones profundas y
-                reflexicas así, quien elige jugar, guarda en su memoria una
+                reflexivas así, quien elige jugar, guarda en su memoria una
                 experiencia significativa sobre sus deseos que recordará en el
                 tiempo.
               </p>
@@ -185,14 +185,14 @@ export default function SocialProof() {
             en tu empresa?
           </h4>
           <p className="text-justify text-black mb-2 leading-tight">
-            Las exeriencias de nuestros usuarios dan cuenta de un cambio en la
+            Las experiencias de nuestros usuarios dan cuenta de un cambio en la
             dinámica laboral. Una necesidad de mejorar las relaciones en el
             equipo y la posiblidad de conocer nuevas facetas y puntos en común
             para conectar.
           </p>
           <br />
           <p className="text-justify text-black mb-2 leading-tight">
-            Las exeriencias de nuestros usuarios dan cuenta de un cambio en la
+            Las experiencias de nuestros usuarios dan cuenta de un cambio en la
             dinámica laboral. Una necesidad de mejorar las relaciones en el
             equipo y la posiblidad de conocer nuevas facetas y puntos en común
             para conectar.

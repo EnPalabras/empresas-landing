@@ -3,6 +3,7 @@ import Comments from './components/Comments'
 import Empresas from './components/Empresas'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
+import Form from './components/Form'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import JuegosInfo from './components/JuegosInfo'
@@ -24,6 +25,7 @@ function App() {
       <Proceso />
 
       <FAQ />
+      <Form />
       <Footer />
     </>
   )
