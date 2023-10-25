@@ -89,8 +89,8 @@ export default function JuegosInfo() {
                 }}
               >
                 <div className="flex justify-center items-center h-full mx-auto ">
-                  <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50">
-                    Ver más
+                  <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-sm">
+                    Desconectados
                   </button>
                 </div>
               </div>{' '}
@@ -182,7 +182,14 @@ export default function JuegosInfo() {
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                 }}
-              ></div>{' '}
+              >
+                {' '}
+                <div className="flex justify-center items-center h-full mx-auto ">
+                  <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-sm">
+                    Destapados
+                  </button>
+                </div>
+              </div>{' '}
               <p
                 className="uppercase text-center text-xl text-[#584776]
               bg-gray-100 bg-opacity-30
@@ -268,7 +275,14 @@ export default function JuegosInfo() {
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                 }}
-              ></div>{' '}
+              >
+                {' '}
+                <div className="flex justify-center items-center h-full mx-auto ">
+                  <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-sm">
+                    Año Nuevo
+                  </button>
+                </div>
+              </div>{' '}
               <p
                 className="uppercase text-center text-xl text-[#584776]
               bg-gray-100 bg-opacity-30
@@ -349,7 +363,14 @@ export default function JuegosInfo() {
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                 }}
-              ></div>{' '}
+              >
+                {' '}
+                <div className="flex justify-center items-center h-full mx-auto ">
+                  <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-sm">
+                    Personalizados
+                  </button>
+                </div>
+              </div>{' '}
               <p
                 className="uppercase text-center text-xl text-[#584776]
               bg-gray-100 bg-opacity-30 rounded-br-xl
@@ -422,8 +443,8 @@ export default function JuegosInfo() {
               }}
             >
               <div className="flex justify-center items-center h-full mx-auto ">
-                <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-sm">
-                  Ver más
+                <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-xs">
+                  Desconectados
                 </button>
               </div>
             </div>{' '}
@@ -448,7 +469,14 @@ export default function JuegosInfo() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
-            ></div>{' '}
+            >
+              {' '}
+              <div className="flex justify-center items-center h-full mx-auto ">
+                <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-xs">
+                  Destapados
+                </button>
+              </div>
+            </div>{' '}
             <p
               className="uppercase text-center text-lg text-[#584776]
               bg-gray-100 bg-opacity-30 rounded-b-xl
@@ -472,7 +500,14 @@ export default function JuegosInfo() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
-            ></div>{' '}
+            >
+              {' '}
+              <div className="flex justify-center items-center h-full mx-auto ">
+                <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-xs">
+                  Año Nuevo
+                </button>
+              </div>
+            </div>{' '}
             <p
               className="uppercase text-center text-lg text-[#584776]
               bg-gray-100 bg-opacity-30 rounded-b-xl
@@ -493,7 +528,14 @@ export default function JuegosInfo() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
-            ></div>{' '}
+            >
+              {' '}
+              <div className="flex justify-center items-center h-full mx-auto ">
+                <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-xs">
+                  Personalizados
+                </button>
+              </div>
+            </div>{' '}
             <p
               className="uppercase text-center text-lg text-[#584776]
               bg-gray-100 bg-opacity-30 rounded-b-xl
