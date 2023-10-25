@@ -29,20 +29,20 @@ export default function SocialProof() {
           <img
             src={socialDesktop}
             alt="social proof"
-            className="w-1/2 
+            className="w-2/5
             transform -translate-x-[10%]
             
           "
           />
           <div
-            className="flex flex-col gap-16 
+            className="flex flex-col gap-16 justify-between px-16
                 text-lg text-justify text-gray-800 h-full my-auto
             "
             style={{
               fontFamily: 'PP Neue Montreal Medium',
             }}
           >
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-12">
               <p>
                 Las experiencias de nuestros usuarios dan cuenta de un cambio en
                 la dinámica laboral. Una necesidad de mejorar las relaciones en
@@ -57,95 +57,97 @@ export default function SocialProof() {
                 tiempo.
               </p>
             </div>
-            <p
-              className="text-[#584776] font-bold"
-              style={{
-                fontFamily: 'PP Neue Montreal Bold',
-                fontSize: '1.2rem',
-              }}
-            >
-              Innová regalando una charla de En Palabras
-            </p>
+            <div className="flex flex-col gap-16">
+              <p
+                className="text-[#584776] font-bold"
+                style={{
+                  fontFamily: 'PP Neue Montreal Bold',
+                  fontSize: '1.2rem',
+                }}
+              >
+                Innová regalando una charla de En Palabras
+              </p>
 
-            <div
-              className="flex flex-row justify-center 
+              <div
+                className="flex flex-row justify-center 
             gap-6 items-stretch"
-            >
-              <div
-                className="flex flex-col justify-between py-9 px-6 
+              >
+                <div
+                  className="flex flex-col justify-between py-9 px-6 
               bg-[#584776] bg-opacity-[30%] bg-gray-50 
               rounded-xl text-center"
-              >
-                <p
-                  className="mb-2 text-[#584776]"
-                  style={{
-                    fontFamily: 'PP Neue Montreal Bold',
-                    fontSize: '3.5rem',
-                  }}
                 >
-                  +100k
-                </p>
-                <p
-                  className="text-left 
+                  <p
+                    className="mb-2 text-[#584776]"
+                    style={{
+                      fontFamily: 'PP Neue Montreal Bold',
+                      fontSize: '3.5rem',
+                    }}
+                  >
+                    +100k
+                  </p>
+                  <p
+                    className="text-left 
                   text-[#584776]"
-                  style={{
-                    fontFamily: 'PP Neue Montreal Medium',
-                    fontSize: '1.2rem',
-                  }}
-                >
-                  juegos vendidos
-                </p>{' '}
-              </div>
-              <div
-                className="flex flex-col justify-between py-9 px-6 
+                    style={{
+                      fontFamily: 'PP Neue Montreal Medium',
+                      fontSize: '1.2rem',
+                    }}
+                  >
+                    juegos vendidos
+                  </p>{' '}
+                </div>
+                <div
+                  className="flex flex-col justify-between py-9 px-6 
               bg-[#584776] bg-opacity-[30%] bg-gray-50 
               rounded-xl text-center"
-              >
-                <p
-                  className="mb-2 text-[#584776]"
-                  style={{
-                    fontFamily: 'PP Neue Montreal Bold',
-                    fontSize: '3.5rem',
-                  }}
                 >
-                  +16
-                </p>
-                <p
-                  className="text-left 
+                  <p
+                    className="mb-2 text-[#584776]"
+                    style={{
+                      fontFamily: 'PP Neue Montreal Bold',
+                      fontSize: '3.5rem',
+                    }}
+                  >
+                    +16
+                  </p>
+                  <p
+                    className="text-left 
                   text-[#584776]"
-                  style={{
-                    fontFamily: 'PP Neue Montreal Medium',
-                    fontSize: '1.2rem',
-                  }}
-                >
-                  países
-                </p>{' '}
-              </div>
-              <div
-                className="flex flex-col justify-between pt-9 pb-2 px-6 
+                    style={{
+                      fontFamily: 'PP Neue Montreal Medium',
+                      fontSize: '1.2rem',
+                    }}
+                  >
+                    países
+                  </p>{' '}
+                </div>
+                <div
+                  className="flex flex-col justify-between pt-9 pb-2 px-6 
               bg-[#584776] bg-opacity-[30%] bg-gray-50 
               rounded-xl text-center"
-              >
-                <p
-                  className="mb-2 text-[#584776]"
-                  style={{
-                    fontFamily: 'PP Neue Montreal Bold',
-                    fontSize: '3.5rem',
-                  }}
                 >
-                  +35
-                </p>
-                <p
-                  className="text-left 
+                  <p
+                    className="mb-2 text-[#584776]"
+                    style={{
+                      fontFamily: 'PP Neue Montreal Bold',
+                      fontSize: '3.5rem',
+                    }}
+                  >
+                    +35
+                  </p>
+                  <p
+                    className="text-left 
                   text-[#584776]"
-                  style={{
-                    fontFamily: 'PP Neue Montreal Medium',
-                    fontSize: '1.2rem',
-                  }}
-                >
-                  colaboraciones con <br />
-                  empresas
-                </p>{' '}
+                    style={{
+                      fontFamily: 'PP Neue Montreal Medium',
+                      fontSize: '1.2rem',
+                    }}
+                  >
+                    colaboraciones con <br />
+                    empresas
+                  </p>{' '}
+                </div>
               </div>
             </div>
           </div>
@@ -192,10 +194,10 @@ export default function SocialProof() {
           </p>
           <br />
           <p className="text-justify text-black mb-2 leading-tight">
-            Las experiencias de nuestros usuarios dan cuenta de un cambio en la
-            dinámica laboral. Una necesidad de mejorar las relaciones en el
-            equipo y la posiblidad de conocer nuevas facetas y puntos en común
-            para conectar.
+            Por eso desde <b>En Palabras</b>, nos comprometemos y elegimos crear
+            dinámicas que faciliten conversaciones profundas y reflexivas así,
+            quien elige jugar, guarda en su memoria una experiencia
+            significativa sobre sus deseos que recordará en el tiempo.
           </p>
           <p
             className="text-[#584776] text-center my-2 font-bold"

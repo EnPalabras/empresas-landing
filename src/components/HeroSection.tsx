@@ -32,7 +32,7 @@ export default function HeroSection() {
 
           <p className="max-w-3xl text-md xl:text-xl pl-[5%]">
             Somos la conexión que inspira a tu equipo a forjar relaciones más
-            profundas, genuinas y empáticas. Fomentamos al colaboración y la
+            profundas, genuinas y empáticas. Fomentamos la colaboración y la
             creatividad a través de nuestras experiencias lúdicas
           </p>
           <div></div>
@@ -66,7 +66,7 @@ export default function HeroSection() {
 
           <p className="max-w-3xl text-sm pl-[5%]">
             Somos la conexión que inspira a tu equipo a forjar relaciones más
-            profundas, genuinas y empáticas. Fomentamos al colaboración y la
+            profundas, genuinas y empáticas. Fomentamos la colaboración y la
             creatividad a través de nuestras experiencias lúdicas
           </p>
           <div></div>

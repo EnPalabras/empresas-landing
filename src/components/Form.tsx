@@ -53,10 +53,7 @@ export default function Form() {
   //     console.log(response)
   //   }
   return (
-    <section
-      className="max-w-8xl my-10 mx-auto lg:px-4 w-full px-10"
-      id="formulario"
-    >
+    <section className="max-w-8xl my-10 mx-auto px-4 w-full " id="formulario">
       {' '}
       <h4
         className="text-3xl text-center mb-5 text-gray-800 lg:text-7xl"
@@ -65,7 +62,17 @@ export default function Form() {
           lineHeight: '1.2',
         }}
       >
-        Formulario de Contacto
+        Formulario para
+        <span
+          className="text-[#584776]"
+          style={{
+            fontFamily: 'PP Neue Montreal Bold',
+          }}
+        >
+          {' '}
+          cotizar
+          <br />
+        </span>
       </h4>
       <form
         onSubmit={submitForm}
@@ -73,7 +80,7 @@ export default function Form() {
           const target = e.target as HTMLInputElement
           setForm({ ...form, [target.name]: target.value })
         }}
-        className="max-w-2xl mx-auto flex flex-col w-full gap-2"
+        className="max-w-6xl lg:px-4 mx-auto flex flex-col w-full gap-2"
       >
         {/* {JSON.stringify(form)} */}
         <div className="flex flex-row gap-2 w-full justify-between">
@@ -85,7 +92,7 @@ export default function Form() {
               name="name"
               type="text"
               placeholder="Nombre de la empresa"
-              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg"
+              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
             />
           </div>
           <div className="flex flex-col gap-2 w-full">
@@ -96,7 +103,7 @@ export default function Form() {
               name="email"
               type="text"
               placeholder="Email"
-              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg"
+              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
             />
           </div>
         </div>
@@ -109,7 +116,7 @@ export default function Form() {
               name="phone"
               type="text"
               placeholder="Número de contacto"
-              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg"
+              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
             />
           </div>
           <div className="flex flex-col gap-2 w-full">
@@ -120,7 +127,9 @@ export default function Form() {
               name="CUIT"
               type="text"
               placeholder="CUIT"
-              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg"
+              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg
+              focus:ring-2 focus:ring-[#584776] focus:border-transparent
+              "
             />
           </div>
         </div>
@@ -133,12 +142,18 @@ export default function Form() {
               Agente de Retención
             </label>
             <div className="flex gap-10">
-              <Radio name="retention" label="Sí" crossOrigin="true" />
+              <Radio
+                name="retention"
+                label="Sí"
+                crossOrigin="true"
+                className="focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+              />
               <Radio
                 name="retention"
                 label="No"
                 defaultChecked
                 crossOrigin="true"
+                className="focus:ring-2 focus:ring-[#584776] focus:border-transparent"
               />
             </div>
           </div>
@@ -153,36 +168,45 @@ export default function Form() {
               name="address"
               type="text"
               placeholder="Dirección o Zona de Entrega"
-              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg"
+              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
             />
           </div>
         </div>
-        <label className="text-gray-800 text-sm font-bold" htmlFor="motive">
-          Motivo de Uso
-        </label>
-        <input
-          name="motive"
-          type="text"
-          placeholder="Motivo de Uso"
-          className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg"
-        />
-        <label className="text-gray-800 text-sm font-bold" htmlFor="links">
-          Links o Redes
-        </label>
-        <input
-          name="links"
-          type="text"
-          placeholder="Web o Links (redes)"
-          className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg"
-        />
+        <div className="flex flex-col lg:flex-row gap-2 w-full justify-between">
+          <div className="flex flex-col gap-2 w-full">
+            <label className="text-gray-800 text-sm font-bold" htmlFor="motive">
+              Motivo de Uso
+            </label>
+            <input
+              name="motive"
+              type="text"
+              placeholder="Motivo de Uso"
+              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+            />
+          </div>
+          <div className="flex flex-col gap-2 w-full">
+            <label className="text-gray-800 text-sm font-bold" htmlFor="links">
+              Links o Redes
+            </label>
+            <input
+              name="links"
+              type="text"
+              placeholder="Web o Links (redes)"
+              className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+            />
+          </div>
+        </div>
         <label className="text-gray-800 text-sm font-bold" htmlFor="juego">
-          Juego/s y Cantidades
+          Juego/s y Cantidades{' '}
+          <span className="text-xs font-normal">
+            (Mencionar si se quiere personalizar)
+          </span>
         </label>
         <input
           name="juego"
           type="text"
           placeholder="Juego/s y Cantidades"
-          className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg"
+          className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
         />
         <label className="text-gray-800 text-sm font-bold" htmlFor="comments">
           Comentarios
@@ -191,7 +215,7 @@ export default function Form() {
           name="comments"
           //   type="text"
           placeholder="Otros Comentarios acerca de tu pedido"
-          className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg
+          className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent
             h-24
           "
         />{' '}

@@ -11,7 +11,7 @@ export default function Empresas() {
   return (
     <section className="max-w-8xl my-10 mx-auto lg:px-4" id="testimonios">
       <h4
-        className="text-3xl text-center text-gray-800 lg:text-7xl"
+        className="text-2xl text-center text-gray-800 lg:text-7xl"
         style={{
           fontFamily: 'PP Neue Montreal Medium',
           lineHeight: '1.2',

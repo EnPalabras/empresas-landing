@@ -12,7 +12,7 @@ import { Drawer, IconButton } from '@material-tailwind/react'
 
 export default function JuegosInfo() {
   const [flippedCard, setFlippedCard] = useState<any>({
-    desconectados: true,
+    desconectados: false,
     destapados: false,
     anionuevo: false,
     personalizados: false,
@@ -75,13 +75,25 @@ export default function JuegosInfo() {
           >
             <div className="card__face card__face--front">
               <div
-                className="text-center h-[450px] select-none rounded-tl-xl"
+                className="text-center h-[450px] select-none rounded-tl-xl
+                transition duration 500 ease-in-out transform hover:opacity-[65%]
+                overflow-hidden 
+                
+                
+
+                "
                 style={{
                   backgroundImage: `url(${descImage})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                 }}
-              ></div>{' '}
+              >
+                <div className="flex justify-center items-center h-full mx-auto ">
+                  <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50">
+                    Ver más
+                  </button>
+                </div>
+              </div>{' '}
               <p
                 className="uppercase text-center text-xl text-[#584776]
               bg-gray-100 bg-opacity-30 rounded-bl-xl
@@ -96,7 +108,8 @@ export default function JuegosInfo() {
               <div
                 className="text-center h-[450px]
                     
-                rounded-tl-xl"
+                rounded-tl-xl
+                "
                 style={{
                   backgroundImage: `url(${descImage})`,
                   backgroundSize: 'cover',
@@ -107,7 +120,7 @@ export default function JuegosInfo() {
                   className="pb-8 px-6 text-justify text-gray-700 h-full rounded-tl-lg text-xs xl:text-sm"
                   style={{
                     backgroundImage:
-                      'linear-gradient(to bottom, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.75) 100%)',
+                      'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%)',
                   }}
                 >
                   <img
@@ -161,7 +174,9 @@ export default function JuegosInfo() {
           >
             <div className="card__face card__face--front">
               <div
-                className="text-center h-[450px] select-none"
+                className="text-center h-[450px] select-none
+                transition duration 500 ease-in-out transform hover:opacity-[65%]
+                overflow-hidden "
                 style={{
                   backgroundImage: `url(${destImage})`,
                   backgroundSize: 'cover',
@@ -191,7 +206,7 @@ export default function JuegosInfo() {
                   className="pb-8 px-6 text-justify text-gray-700 h-full text-xs xl:text-sm"
                   style={{
                     backgroundImage:
-                      'linear-gradient(to bottom, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.75) 100%)',
+                      'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%)',
                   }}
                 >
                   <img
@@ -245,7 +260,9 @@ export default function JuegosInfo() {
           >
             <div className="card__face card__face--front">
               <div
-                className="text-center h-[450px] select-none"
+                className="text-center h-[450px] select-none
+                transition duration 500 ease-in-out transform hover:opacity-[65%]
+                overflow-hidden "
                 style={{
                   backgroundImage: `url(${anImage})`,
                   backgroundSize: 'cover',
@@ -274,7 +291,7 @@ export default function JuegosInfo() {
                   className="pb-8 px-6 text-justify text-gray-700 h-full text-xs xl:text-sm"
                   style={{
                     backgroundImage:
-                      'linear-gradient(to bottom, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.75) 100%)',
+                      'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%)',
                   }}
                 >
                   <img
@@ -324,7 +341,9 @@ export default function JuegosInfo() {
           >
             <div className="card__face card__face--front">
               <div
-                className="text-center h-[450px] select-none rounded-tr-xl"
+                className="text-center h-[450px] select-none
+                transition duration 500 ease-in-out transform hover:opacity-[65%]
+                overflow-hidden  rounded-tr-xl"
                 style={{
                   backgroundImage: `url(${perImage})`,
                   backgroundSize: 'cover',
@@ -355,7 +374,7 @@ export default function JuegosInfo() {
                   className="pb-8 px-6 text-justify text-gray-700 h-full rounded-tr-lg text-xs xl:text-sm"
                   style={{
                     backgroundImage:
-                      'linear-gradient(to bottom, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.75) 100%)',
+                      'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%)',
                   }}
                 >
                   <img
@@ -401,7 +420,13 @@ export default function JuegosInfo() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
-            ></div>{' '}
+            >
+              <div className="flex justify-center items-center h-full mx-auto ">
+                <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-sm">
+                  Ver más
+                </button>
+              </div>
+            </div>{' '}
             <p
               className="uppercase text-center text-lg text-[#584776]
               bg-gray-100 bg-opacity-30 rounded-b-xl
