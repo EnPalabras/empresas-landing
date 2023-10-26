@@ -3,6 +3,7 @@ import {
   GoogleLogo,
   MicrosoftLogo,
   NespressoLogo,
+  TiendaNubeLogo,
   //   TiendaNubeLogo,
   WarnerBros,
 } from '../assets/logos/company/CompanyLogos'
@@ -65,7 +66,7 @@ export default function Empresas() {
           </li>
         </ul>
       </div> */}
-      <div className="flex flex-row justify-around items-center mt-10">
+      {/* <div className="flex flex-row justify-around items-center mt-10">
         <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-8">
           <NespressoLogo />
         </div>
@@ -79,6 +80,27 @@ export default function Empresas() {
           <AdidasLogo />
         </div>
         <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-8">
+          <WarnerBros />
+        </div>
+      </div> */}
+
+      <div className="grid grid-cols-2 lg:grid-cols-3 place-content-center place-items-center">
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-auto">
+          <TiendaNubeLogo />
+        </div>
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-auto">
+          <NespressoLogo />
+        </div>
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-auto">
+          <MicrosoftLogo />
+        </div>
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-auto">
+          <GoogleLogo />
+        </div>
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-auto">
+          <AdidasLogo />
+        </div>
+        <div className="w-[120px] lg:w-[200px] mx-2 lg:mx-auto">
           <WarnerBros />
         </div>
       </div>
