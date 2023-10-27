@@ -221,11 +221,12 @@ export default function Proceso() {
         {/* <div className="max-w-6xl mx-auto flex flex-row flex-wrap w-full gap-2 justify-center items-around"> */}
         <div
           className="max-w-6xl mx-auto 
-        flex flex-row flex-wrap 
-        w-full 
-        justify-center md:justify-evenly xl:justify-between items-around
-        gap-y-2 sm:gap-y-4 md:gap-y-8 
-        gap-x-2 sm:gap-x-4 md:gap-x-8 
+              flex flex-row flex-wrap 
+              w-full 
+              justify-center md:justify-evenly 
+              xl:justify-evenly items-around
+              gap-y-2 sm:gap-y-4 md:gap-y-8 
+              gap-x-2 sm:gap-x-4 md:gap-x-8 
         "
         >
           <div

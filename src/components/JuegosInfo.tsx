@@ -78,9 +78,6 @@ export default function JuegosInfo() {
                 className="text-center h-[450px] select-none rounded-tl-xl
                 transition duration 500 ease-in-out transform hover:opacity-[65%]
                 overflow-hidden 
-                
-                
-
                 "
                 style={{
                   backgroundImage: `url(${descImage})`,
@@ -94,7 +91,7 @@ export default function JuegosInfo() {
                   </button>
                 </div>
               </div>{' '}
-              <p
+              {/* <p
                 className="uppercase text-center text-xl text-[#584776]
               bg-gray-100 bg-opacity-30 rounded-bl-xl
               leading-[40px]
@@ -102,7 +99,7 @@ export default function JuegosInfo() {
               >
                 <b>Des</b>
                 <i>conectados</i>
-              </p>
+              </p> */}
             </div>
             <div className="absolute card__face card__face--back">
               <div
@@ -117,7 +114,9 @@ export default function JuegosInfo() {
                 }}
               >
                 <div
-                  className="pb-8 px-6 text-justify text-gray-700 h-full rounded-tl-lg text-xs xl:text-sm"
+                  className="pb-8 px-6 text-justify 
+                  text-gray-700 h-full rounded-tl-lg 
+                  text-xs justify-between flex flex-col"
                   style={{
                     backgroundImage:
                       'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%)',
@@ -136,7 +135,7 @@ export default function JuegosInfo() {
                     impide.
                   </p>
                   <br />
-                  <p>Cuenta con cuatro secciones:</p>
+                  <p>Son 200 cartas con cuatro secciones:</p>
                   <ul className="mt-2 text-left">
                     <li>
                       🤓<b>Perspectiva:</b> cartas para debatir e intercambiar
@@ -169,99 +168,6 @@ export default function JuegosInfo() {
         </div>
         <div className="scene scene--card">
           <div
-            className={`card ${flippedCard.destapados ? 'is-flipped' : ''}`}
-            onClick={() => handleFlip('destapados')}
-          >
-            <div className="card__face card__face--front">
-              <div
-                className="text-center h-[450px] select-none
-                transition duration 500 ease-in-out transform hover:opacity-[65%]
-                overflow-hidden "
-                style={{
-                  backgroundImage: `url(${destImage})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              >
-                {' '}
-                <div className="flex justify-center items-center h-full mx-auto ">
-                  <button className="rounded-full border border-gray-50 uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-sm">
-                    Destapados
-                  </button>
-                </div>
-              </div>{' '}
-              <p
-                className="uppercase text-center text-xl text-[#584776]
-              bg-gray-100 bg-opacity-30
-              leading-[40px]
-              "
-              >
-                <b>Des</b>
-                <i>tapados</i>
-              </p>
-            </div>
-            <div className="absolute card__face card__face--back">
-              <div
-                className="text-center h-[450px]"
-                style={{
-                  backgroundImage: `url(${destImage})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              >
-                <div
-                  className="pb-8 px-6 text-justify text-gray-700 h-full text-xs xl:text-sm"
-                  style={{
-                    backgroundImage:
-                      'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%)',
-                  }}
-                >
-                  <img
-                    src={destapados}
-                    alt="Destapados"
-                    className="mx-auto w-[200px] "
-                  />
-                  <p>
-                    Destapados es una invitación a intimar con nuestras parejas,
-                    vínculos sexoafectivos y amistades. Las cartas que
-                    encontrarán tienen el objetivo de funcionar como
-                    disparadores para destapar prejuicios y abrirnos a la
-                    exploración de ideas, experiencias y sentimientos en forma
-                    colectiva.
-                  </p>
-                  <br />
-                  <p>Cuenta con cuatro secciones:</p>
-                  <ul className="mt-2 text-left">
-                    <li>
-                      🔥<b>Picantes:</b> cartas que encienden tus experiencias
-                    </li>
-                    <li>
-                      🎲<b>Random:</b> cartas para improvisar
-                    </li>
-                    <li>
-                      😌<b>Profundidad:</b> cartas para intimar
-                    </li>
-                    <li>
-                      🤓<b>Perspectiva:</b> cartas para debatir sobre las
-                      relaciones
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p
-                className="uppercase text-center text-xl text-[#584776]
-              bg-gray-50 bg-opacity-90 
-              leading-[40px]
-              "
-              >
-                <b>Des</b>
-                <i>tapados</i>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="scene scene--card">
-          <div
             className={`card ${flippedCard.anionuevo ? 'is-flipped' : ''}`}
             onClick={() => handleFlip('anionuevo')}
           >
@@ -283,14 +189,14 @@ export default function JuegosInfo() {
                   </button>
                 </div>
               </div>{' '}
-              <p
+              {/* <p
                 className="uppercase text-center text-xl text-[#584776]
               bg-gray-100 bg-opacity-30
               leading-[40px] 
               "
               >
                 <b>Año Nuevo</b>
-              </p>
+              </p> */}
             </div>
             <div className="absolute card__face card__face--back">
               <div
@@ -302,7 +208,10 @@ export default function JuegosInfo() {
                 }}
               >
                 <div
-                  className="pb-8 px-6 text-justify text-gray-700 h-full text-xs xl:text-sm"
+                  className=" px-6 text-justify text-gray-700 
+                  h-full text-xs
+                  justify-between flex flex-col pb-4 
+                  "
                   style={{
                     backgroundImage:
                       'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%)',
@@ -313,7 +222,7 @@ export default function JuegosInfo() {
                     alt="Año Nuevo"
                     className="mx-auto h-[100px] py-2"
                   />
-                  <p>
+                  <p className="">
                     Es una invitación a realizar un balance reflexivo del año
                     transitado para recibir con mayor conciencia al entrante.
                     Las cartas que encontrarán tienen el objetivo de funcionar
@@ -321,9 +230,8 @@ export default function JuegosInfo() {
                     un cierre de etapa y conectar con los deseos y objetivos en
                     las vísperas del próximo ciclo.
                   </p>
-                  <br />
-                  <p>Secciones:</p>
-                  <ul className="mt-2 text-left">
+                  <p>Son 50 cartas con dos secciones:</p>
+                  <ul className="text-left">
                     <li>
                       💫<b>Retrospección:</b> cartas para registrar cómo te
                       hacen sentir tus experiencias pasadas
@@ -348,7 +256,7 @@ export default function JuegosInfo() {
             </div>
           </div>
         </div>
-        <div className="scene scene--card rounded-r-xl">
+        <div className="scene scene--card">
           <div
             className={`card ${flippedCard.personalizados ? 'is-flipped' : ''}`}
             onClick={() => handleFlip('personalizados')}
@@ -357,7 +265,7 @@ export default function JuegosInfo() {
               <div
                 className="text-center h-[450px] select-none
                 transition duration 500 ease-in-out transform hover:opacity-[65%]
-                overflow-hidden  rounded-tr-xl"
+                overflow-hidden"
                 style={{
                   backgroundImage: `url(${perImage})`,
                   backgroundSize: 'cover',
@@ -371,20 +279,18 @@ export default function JuegosInfo() {
                   </button>
                 </div>
               </div>{' '}
-              <p
+              {/* <p
                 className="uppercase text-center text-xl text-[#584776]
               bg-gray-100 bg-opacity-30 rounded-br-xl
               leading-[40px]
               "
               >
                 <b>Personalizados</b>
-              </p>
+              </p> */}
             </div>
             <div className="absolute card__face card__face--back">
               <div
-                className="text-center h-[450px]
-                    
-                rounded-tr-xl"
+                className="text-center h-[450px]"
                 style={{
                   backgroundImage: `url(${perImage})`,
                   backgroundSize: 'cover',
@@ -392,7 +298,9 @@ export default function JuegosInfo() {
                 }}
               >
                 <div
-                  className="pb-8 px-6 text-justify text-gray-700 h-full rounded-tr-lg text-xs xl:text-sm"
+                  className="pb-8 px-6 
+                  text-justify text-gray-700 
+                  h-full text-xs justify-between flex flex-col"
                   style={{
                     backgroundImage:
                       'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%)',
@@ -403,7 +311,7 @@ export default function JuegosInfo() {
                     alt="Personalizado"
                     className="mx-auto w-[200px] "
                   />
-                  <p>
+                  <p className="flex-1 my-0">
                     Te invitamos a crear cartas con preguntas personalizadas
                     sobre la cultura o experiencia de tu marca. Las mismas deben
                     ser creadas por tu equipo y nosotras las adaptamos a un tono
@@ -417,11 +325,109 @@ export default function JuegosInfo() {
               </div>
               <p
                 className="uppercase text-center text-xl text-[#584776]
-              bg-gray-50 bg-opacity-90 rounded-br-xl
+              bg-gray-50 bg-opacity-90 
               leading-[40px]
               "
               >
                 <b>Personalizados</b>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="scene scene--card rounded-r-xl">
+          <div
+            className={`card ${flippedCard.destapados ? 'is-flipped' : ''}`}
+            onClick={() => handleFlip('destapados')}
+          >
+            <div className="card__face card__face--front">
+              <div
+                className="text-center h-[450px] select-none
+                transition duration 500 ease-in-out transform hover:opacity-[65%]
+                overflow-hidden  rounded-tr-xl"
+                style={{
+                  backgroundImage: `url(${destImage})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}
+              >
+                {' '}
+                <div className="flex justify-center items-center h-full mx-auto ">
+                  <button
+                    className="rounded-full border border-gray-50 
+                  uppercase px-4 py-2 text-white bg-gray-700 bg-opacity-50 text-sm"
+                  >
+                    Destapados
+                  </button>
+                </div>
+              </div>{' '}
+              {/* <p
+                className="uppercase text-center text-xl text-[#584776]
+              bg-gray-100 bg-opacity-30
+              leading-[40px]
+              "
+              >
+                <b>Des</b>
+                <i>tapados</i>
+              </p> */}
+            </div>
+            <div className="absolute card__face card__face--back ">
+              <div
+                className="text-center h-[450px] rounded-tr-lg"
+                style={{
+                  backgroundImage: `url(${destImage})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}
+              >
+                <div
+                  className="pb-8 px-6 text-justify 
+                  text-gray-700 rounded-tr-lg  
+                  h-full text-xs justify-between flex flex-col"
+                  style={{
+                    backgroundImage:
+                      'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%)',
+                  }}
+                >
+                  <img
+                    src={destapados}
+                    alt="Destapados"
+                    className="mx-auto w-[200px] "
+                  />
+                  <p className="flex-1 my-0">
+                    Destapados es una invitación a intimar con nuestras parejas,
+                    vínculos sexoafectivos y amistades. Las cartas que
+                    encontrarán tienen el objetivo de funcionar como
+                    disparadores para destapar prejuicios y abrirnos a la
+                    exploración de ideas, experiencias y sentimientos en forma
+                    colectiva.
+                  </p>
+                  <br />
+                  <p>Son 200 cartas con cuatro secciones:</p>
+                  <ul className="mt-2 text-left">
+                    <li>
+                      🔥<b>Picantes:</b> cartas que encienden tus experiencias
+                    </li>
+                    <li>
+                      🎲<b>Random:</b> cartas para improvisar
+                    </li>
+                    <li>
+                      😌<b>Profundidad:</b> cartas para intimar
+                    </li>
+                    <li>
+                      🤓<b>Perspectiva:</b> cartas para debatir sobre las
+                      relaciones
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p
+                className="uppercase text-center text-xl text-[#584776]
+              bg-gray-50 bg-opacity-90 
+              leading-[40px] rounded-br-xl
+              "
+              >
+                <b>Des</b>
+                <i>tapados</i>
               </p>
             </div>
           </div>
@@ -586,7 +592,7 @@ export default function JuegosInfo() {
             que, muchas veces, el ritmo de vida nos lo impide.
           </p>
           <br />
-          <p>Cuenta con cuatro secciones:</p>
+          <p>Son 200 cartas con cuatro secciones:</p>
           <ul className="mt-2 text-left">
             <li className="mb-2">
               🤓<b> Perspectiva:</b> cartas para debatir e intercambiar maneras
@@ -705,7 +711,7 @@ export default function JuegosInfo() {
             con los deseos y objetivos en las vísperas del próximo ciclo.
           </p>
           <br />
-          <p>Secciones:</p>
+          <p>Son 50 cartas con dos secciones:</p>
           <ul className="mt-2 text-left">
             <li>
               💫<b>Retrospección:</b> cartas para registrar cómo te hacen sentir
@@ -820,7 +826,7 @@ export default function JuegosInfo() {
             sentimientos en forma colectiva.
           </p>
           <br />
-          <p>Cuenta con cuatro secciones:</p>
+          <p>Son 200 cartas con cuatro secciones:</p>
           <ul className="mt-2 text-left">
             <li className="mb-2">
               🔥<b> Picantes:</b> cartas que encienden tus experiencias

@@ -3,7 +3,7 @@ import socialMobile from '../assets/images/juegos/page/mobile/socialproof.jpg'
 
 export default function SocialProof() {
   return (
-    <section className="max-w-8xl my-10 mx-auto lg:px-4">
+    <section className="max-w-8xl my-10 mt-20 mx-auto lg:px-4">
       <div className="hidden my-10 lg:flex flex-col">
         <h4
           className="text-3xl text-gray-800 lg:text-7xl mb-8"
