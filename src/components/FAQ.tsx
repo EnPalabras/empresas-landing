@@ -38,7 +38,7 @@ export default function FAQ() {
   return (
     <section
       className="bg-[#aea3c6]
-     px-4 lg:py-10 
+     py-10 pb-16
     "
     >
       <div
