@@ -62,9 +62,10 @@ export default function Header() {
         placement="right"
         open={openRight}
         onClose={toggleDrawer}
-        className="p-4 bg-[#aea3c6] 
+        className={`p-4 bg-[#aea3c6] 
         flex flex-col justify-between
-        "
+        z-1
+        `}
       >
         <div>
           <div className="mb-6 flex items-center justify-between">

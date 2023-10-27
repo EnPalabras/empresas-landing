@@ -3,7 +3,7 @@ import TikTok from '../assets/Icons/TikTokIcon'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#584776]  text-white mt-10 py-10 px-8">
+    <footer className="bg-[#584776]  text-white  py-10 px-8">
       <div className="flex lg:hidden flex-col justify-between gap-4 ">
         <div
           className="mb-4"

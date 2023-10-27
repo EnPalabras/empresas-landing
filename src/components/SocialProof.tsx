@@ -29,13 +29,13 @@ export default function SocialProof() {
           <img
             src={socialDesktop}
             alt="social proof"
-            className="w-2/5
+            className="w-3/5 xl:w-2/5
             transform -translate-x-[10%]
             
           "
           />
           <div
-            className="flex flex-col gap-16 justify-between px-16
+            className="flex flex-col gap-16 justify-between w-2/5 xl:w-3/5 mx-auto
                 text-lg text-justify text-gray-800 h-full my-auto
             "
             style={{

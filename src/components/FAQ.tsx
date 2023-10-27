@@ -37,63 +37,69 @@ export default function FAQ() {
 
   return (
     <section
-      className="max-w-6xl my-10 mx-auto px-2 lg:px-4"
-      id="faq"
-      style={{
-        fontFamily: 'PP Neue Montreal Thin',
-      }}
+      className="
+     px-4 py-10 lg:py-14
+    "
     >
-      <h4
-        className="text-3xl mb-10 text-center text-gray-800 lg:text-7xl"
+      <div
+        className="max-w-6xl my-10 mx-auto px-2 lg:px-4"
+        id="faq"
         style={{
-          fontFamily: 'PP Neue Montreal Bold',
-          lineHeight: '1.2',
+          fontFamily: 'PP Neue Montreal Thin',
         }}
       >
-        Preguntas Frecuentes
-      </h4>
-      <>
-        <Accordion
-          icon={<Icon id={1} open={open} />}
-          open={open === 1}
-          animate={CUSTOM_ANIMATION}
-          className={`${open === 1 ? '' : 'border-b border-gray-400'}`}
+        <h4
+          className="text-3xl mb-10 text-center text-gray-800 lg:text-7xl"
+          style={{
+            fontFamily: 'PP Neue Montreal Bold',
+            lineHeight: '1.2',
+          }}
         >
-          <AccordionHeader
-            onClick={() => handleOpen(1)}
-            className={`border-b-0 transition-colors ${
-              open === 1
-                ? 'bg-[#aea3c6] text-[#584776] hover:!text-opacity-90 px-8 '
-                : 'px-8 '
-            }`}
+          Preguntas Frecuentes
+        </h4>
+        <>
+          <Accordion
+            icon={<Icon id={1} open={open} />}
+            open={open === 1}
+            animate={CUSTOM_ANIMATION}
+            className={`${open === 1 ? '' : 'border-b border-gray-400'}`}
           >
-            Cartas Personalizadas
-          </AccordionHeader>
-          <AccordionBody className="px-10">
-            <CartasPersonalizadas />
-          </AccordionBody>
-        </Accordion>
-        <Accordion
-          icon={<Icon id={2} open={open} />}
-          open={open === 2}
-          animate={CUSTOM_ANIMATION}
-          className={`${open === 2 ? '' : 'border-b border-gray-400'}`}
-        >
-          <AccordionHeader
-            onClick={() => handleOpen(2)}
-            className={`border-b-0 transition-colors ${
-              open === 2
-                ? 'bg-[#aea3c6] text-[#584776] hover:!text-opacity-90 px-8'
-                : 'px-8 rounded-t-lg'
-            }`}
+            <AccordionHeader
+              onClick={() => handleOpen(1)}
+              className={`border-b-0 transition-colors ${
+                open === 1
+                  ? 'bg-[#aea3c6] text-[#584776] hover:!text-opacity-90 px-8 '
+                  : 'px-8 '
+              }`}
+            >
+              Cartas Personalizadas
+            </AccordionHeader>
+            <AccordionBody className="px-10">
+              <CartasPersonalizadas />
+            </AccordionBody>
+          </Accordion>
+          <Accordion
+            icon={<Icon id={2} open={open} />}
+            open={open === 2}
+            animate={CUSTOM_ANIMATION}
+            className={`${open === 2 ? '' : 'border-b border-gray-400'}`}
           >
-            Juego Sin Personalizar
-          </AccordionHeader>
-          <AccordionBody className="px-10">
-            <CartasSinPersonalizar />
-          </AccordionBody>
-        </Accordion>
-      </>
+            <AccordionHeader
+              onClick={() => handleOpen(2)}
+              className={`border-b-0 transition-colors ${
+                open === 2
+                  ? 'bg-[#aea3c6] text-[#584776] hover:!text-opacity-90 px-8'
+                  : 'px-8 rounded-t-lg'
+              }`}
+            >
+              Juego Sin Personalizar
+            </AccordionHeader>
+            <AccordionBody className="px-10">
+              <CartasSinPersonalizar />
+            </AccordionBody>
+          </Accordion>
+        </>
+      </div>
     </section>
   )
 }

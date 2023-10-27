@@ -90,7 +90,7 @@ export default function Comments() {
         })}
       </div>
       <div className="lg:hidden">
-        <Carousel className="rounded-xl items-stretch justify-stretch h-full select-none pb-10">
+        <Carousel className="rounded-xl items-stretch justify-stretch h-full select-none pb-10 gap-1">
           {COMMENTS.map((comment) => {
             return (
               <div
