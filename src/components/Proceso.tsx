@@ -68,7 +68,7 @@ export default function Proceso() {
         </div>
       </div>
       <div className="flex flex-col gap-4 justify-between items-center max-w-6xl mx-auto text-justify">
-        <h5 className="text-[#584776] my-4 text-2xl italic lg:text-4xl md:self-start">
+        <h5 className="text-[#584776] my-4 mt-8 text-2xl italic lg:text-4xl md:self-start text-left">
           Cartas o packaging <span>no personalizado</span>:
         </h5>
         {/* <div className="max-w-6xl mx-auto flex flex-row flex-wrap w-full gap-2 justify-center items-around"> */}
@@ -217,7 +217,7 @@ export default function Proceso() {
 
       <div className="flex flex-col gap-4 justify-between items-center max-w-6xl mx-auto text-justify">
         <div className="flex flex-row justify-around gap-6 md:self-start"></div>
-        <h5 className="text-[#584776] my-4 text-2xl italic lg:text-4xl md:self-start">
+        <h5 className="text-[#584776] my-4 text-2xl italic lg:text-4xl md:self-start text-left">
           Cartas o packaging <span>personalizado</span>:
         </h5>
         {/* <div className="max-w-6xl mx-auto flex flex-row flex-wrap w-full gap-2 justify-center items-around"> */}
