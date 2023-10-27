@@ -11,26 +11,43 @@ import acuerdo from '../assets/logos/proceso/acuerdo.png'
 export default function Proceso() {
   return (
     <section className="max-w-6xl mx-auto my-10 px-2 md:px-4" id="proceso">
-      <h4
-        className="text-3xl text-gray-800 lg:text-7xl mb-8 text-center"
-        style={{
-          fontFamily: 'PP Neue Montreal Medium',
-          lineHeight: '1.2',
-        }}
-      >
-        Conocé nuestro{' '}
-        <span
-          className="text-[#584776]"
+      <div className="flex flex-col lg:flex-row justify-between items-center max-w-6xl">
+        <h4
+          className="text-5xl text-gray-800 lg:text-7xl mb-8 text-center lg:text-left"
           style={{
-            fontFamily: 'PP Neue Montreal Bold',
+            fontFamily: 'PP Neue Montreal Medium',
+            lineHeight: '1.2',
           }}
         >
-          proceso creativo
-        </span>{' '}
-        de cartas personalizadas
-      </h4>
-      <div className="flex flex-col gap-4 justify-between items-center max-w-6xl mx-auto text-justify">
-        <div className="flex flex-row justify-around gap-6 md:self-start">
+          Conocé nuestro{' '}
+          <span
+            className="text-[#584776]"
+            style={{
+              fontFamily: 'PP Neue Montreal Bold',
+            }}
+          >
+            {' '}
+            <br className="hidden lg:inline" /> proceso
+          </span>{' '}
+        </h4>
+        <div className="flex flex-row justify-center gap-6 ">
+          <div
+            className=" bg-white bg-opacity-70 rounded-xl p-4 py-2 
+                      flex flex-col justify-around gap-4
+                      max-w-[200px]
+                    "
+          >
+            <p
+              className="text-gray-800 px- text-center"
+              style={{
+                fontFamily: 'PP Neue Montreal Medium',
+                fontSize: '16px',
+                fontStyle: 'italic',
+              }}
+            >
+              En Palabras
+            </p>
+          </div>
           <div
             className="bg-[#c2bad8] bg-opacity-70 rounded-xl p-4 py-2 
                       flex flex-col justify-around gap-4
@@ -45,27 +62,12 @@ export default function Proceso() {
                 fontStyle: 'italic',
               }}
             >
-              En Palabras
-            </p>
-          </div>
-          <div
-            className="bg-white bg-opacity-70 rounded-xl p-4 py-2 
-                      flex flex-col justify-around gap-4
-                      max-w-[200px]
-                    "
-          >
-            <p
-              className="text-gray-800 px- text-center"
-              style={{
-                fontFamily: 'PP Neue Montreal Medium',
-                fontSize: '16px',
-                fontStyle: 'italic',
-              }}
-            >
               Tu empresa
             </p>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col gap-4 justify-between items-center max-w-6xl mx-auto text-justify">
         <h5 className="text-[#584776] my-4 text-2xl italic lg:text-4xl md:self-start">
           Cartas o packaging <span>no personalizado</span>:
         </h5>
@@ -369,15 +371,13 @@ export default function Proceso() {
             </div>
           </div>
           <div
-            className="bg-[#c2bad8] bg-opacity-70 rounded-xl p-4 py-6 
+            className="bg-white bg-opacity-70 rounded-xl p-4 py-6 
                       flex flex-col justify-between gap-4
                       max-w-[200px]
                     "
           >
             <div className="flex flex-row justify-between items-start">
-              <p className="flex-1 pt-1/2 text-lg text-[#584776] font-bold">
-                8
-              </p>
+              <p className="flex-1 pt-1/2 text-lg text-gray-800 font-bold">8</p>
               <img
                 src={camion}
                 alt="nota"
@@ -388,7 +388,7 @@ export default function Proceso() {
 
             <div className="flex flex-col justify-around h-full">
               <p
-                className="text-[#584776] px- text-center justify-center items-center"
+                className="text-gray-800 px- text-center justify-center items-center"
                 style={{
                   fontFamily: 'PP Neue Montreal Medium',
                   fontSize: '14px',
@@ -400,13 +400,15 @@ export default function Proceso() {
             </div>
           </div>
           <div
-            className="bg-white bg-opacity-70 rounded-xl p-4 py-6 
+            className="bg-[#c2bad8] bg-opacity-70 rounded-xl p-4 py-6 
                       flex flex-col justify-between gap-4 
                       max-w-[200px] w-full
                     "
           >
             <div className="flex flex-row justify-between items-start">
-              <p className="flex-1 pt-1/2 text-lg text-gray-800 font-bold">9</p>
+              <p className="flex-1 pt-1/2 text-lg text-[#584776] font-bold">
+                9
+              </p>
               <img
                 src={acuerdo}
                 alt="nota"
@@ -416,7 +418,7 @@ export default function Proceso() {
             </div>
             <div className="flex flex-col justify-around h-full">
               <p
-                className="text-gray-800 px- text-center justify-center items-center"
+                className="text-[#584776] px- text-center justify-center items-center"
                 style={{
                   fontFamily: 'PP Neue Montreal Medium',
                   fontSize: '14px',
