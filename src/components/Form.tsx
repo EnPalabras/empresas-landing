@@ -1,4 +1,3 @@
-// import { appendData } from '../services/google.js'
 import { useState } from 'react'
 import { Radio, Spinner } from '@material-tailwind/react'
 
