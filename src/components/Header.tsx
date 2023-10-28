@@ -64,7 +64,7 @@ export default function Header() {
         onClose={toggleDrawer}
         className={`p-4 bg-[#aea3c6] 
         flex flex-col justify-between
-        z-99
+       
         `}
       >
         <div>
