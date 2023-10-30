@@ -3,6 +3,7 @@ export function AdidasLogo() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="auto"
+      className="svgFull"
       height="113.78px"
       viewBox="0 0 192.756 192.756"
     >
@@ -20,6 +21,7 @@ export function GoogleLogo() {
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 596 194.5"
+      className="svgFull"
       width="auto"
       height="113.78px"
     >
@@ -57,6 +59,7 @@ export function MicrosoftLogo() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="auto"
+      className="svgFull"
       height="113.78px"
       viewBox="0 0 1033.746 220.695"
     >
@@ -80,6 +83,7 @@ export function NespressoLogo() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="auto"
+      className="svgFull"
       height="113.78px"
       viewBox="0 0 192.756 192.756"
     >
@@ -97,6 +101,7 @@ export function TiendaNubeLogo() {
     <svg
       viewBox="0 0 160 27"
       fill="none"
+      className="svgFull"
       xmlns="http://www.w3.org/2000/svg"
       width="160"
       height="27"
@@ -115,6 +120,7 @@ export function WarnerBros() {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 386.94183 90.000002"
       width="auto"
+      className="svgFull"
       height="113.78px"
       id="svg2"
     >
