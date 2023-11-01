@@ -12,10 +12,14 @@
   transform-style: preserve-3d;
   transform-origin: center right;
   transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: center right;
+  -webkit-transition: transform 1s;
 }
 
 .card.is-flipped {
   transform: translateX(-100%) rotateY(-180deg);
+  -webkit-transform: translateX(-100%) rotateY(-180deg);
 }
 
 .card__face {
@@ -25,6 +29,7 @@
   /* height: 400px; */
 
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .card-image {
@@ -43,4 +48,5 @@
 
 .card__face--back {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
