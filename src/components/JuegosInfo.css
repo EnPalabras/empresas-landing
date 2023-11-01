@@ -41,6 +41,7 @@
   object-fit: cover;
   object-position: center;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .card__face--front {
