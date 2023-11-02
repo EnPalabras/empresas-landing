@@ -116,7 +116,10 @@ export default function Form() {
                 name="name"
                 type="text"
                 placeholder="Nombre de la empresa"
-                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg 
+                focus:ring-2 focus:ring-[#584776] focus:border-transparent
+                placeholder-gray-800
+                "
               />
             </div>
             <div className="flex flex-col gap-2 w-full">
