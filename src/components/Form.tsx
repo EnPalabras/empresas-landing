@@ -118,7 +118,7 @@ export default function Form() {
                 placeholder="Nombre de la empresa"
                 className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg 
                 focus:ring-2 focus:ring-[#584776] focus:border-transparent
-                placeholder-gray-800
+                placeholder-gray-700
                 "
               />
             </div>
@@ -133,7 +133,7 @@ export default function Form() {
                 name="email"
                 type="text"
                 placeholder="Email"
-                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] placeholder-gray-700 rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
               />
             </div>
           </div>
@@ -149,7 +149,7 @@ export default function Form() {
                 name="phone"
                 type="text"
                 placeholder="Número de contacto"
-                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] placeholder-gray-700 rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
               />
             </div>
             <div className="flex flex-col gap-2 w-full">
@@ -161,8 +161,9 @@ export default function Form() {
                 type="text"
                 placeholder="CUIT"
                 className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg
-              focus:ring-2 focus:ring-[#584776] focus:border-transparent
-              "
+                  focus:ring-2 focus:ring-[#584776] focus:border-transparent
+                  placeholder-gray-700
+                "
               />
             </div>
           </div>
@@ -201,7 +202,7 @@ export default function Form() {
                 name="address"
                 type="text"
                 placeholder="Dirección o Zona de Entrega"
-                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] placeholder-gray-700 rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
               />
             </div>
           </div>
@@ -217,7 +218,7 @@ export default function Form() {
                 name="motive"
                 type="text"
                 placeholder="Motivo de Uso"
-                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] placeholder-gray-700 rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
               />
             </div>
             <div className="flex flex-col gap-2 w-full">
@@ -231,7 +232,7 @@ export default function Form() {
                 name="links"
                 type="text"
                 placeholder="Web o Links (redes)"
-                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+                className="w-full mb-2 bg-gray-50 bg-opacity-[10%] placeholder-gray-700 rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
               />
             </div>
           </div>
@@ -245,7 +246,7 @@ export default function Form() {
             name="juego"
             type="text"
             placeholder="Juego/s y Cantidades"
-            className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
+            className="w-full mb-2 bg-gray-50 bg-opacity-[10%] placeholder-gray-700 rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent"
           />
           <label className="text-gray-800 text-sm font-bold" htmlFor="comments">
             Comentarios
@@ -254,7 +255,7 @@ export default function Form() {
             name="comments"
             //   type="text"
             placeholder="Otros Comentarios acerca de tu pedido"
-            className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent
+            className="w-full mb-2 bg-gray-50 bg-opacity-[10%] placeholder-gray-700 rounded-lg focus:ring-2 focus:ring-[#584776] focus:border-transparent
             h-24
           "
           />{' '}
@@ -287,7 +288,7 @@ export default function Form() {
             name="paymentComments"
             //   type="text"
             placeholder="Comentarios sobre Modalidad de Pago"
-            className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg
+            className="w-full mb-2 bg-gray-50 bg-opacity-[10%] rounded-lg placeholder-gray-700
             h-24
           "
           />{' '}
