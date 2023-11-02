@@ -99,8 +99,11 @@ export default function Proceso() {
                   fontSize: '14px',
                 }}
               >
-                Completá <b>este formulario</b> para que podamos conocer tu
-                necesidad.
+                Completá{' '}
+                <a href="#formulario">
+                  <b>este formulario</b>
+                </a>{' '}
+                para que podamos conocer tu necesidad.
               </p>
             </div>
           </div>
