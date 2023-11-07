@@ -41,6 +41,10 @@ export default function Form() {
     try {
       const values = [
         [
+          new Date().toLocaleString('es-AR', {
+            timeZone: 'America/Argentina/Buenos_Aires',
+          }),
+
           form.name,
           form.email,
           form.CUIT,
